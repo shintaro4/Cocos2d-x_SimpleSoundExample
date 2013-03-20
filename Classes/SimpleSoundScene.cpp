@@ -71,15 +71,15 @@ void SimpleSound::playSound() {
   
   // play melody
   if (value == 0) {
-    CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("melody_c.wav");
+    CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("melody_C4.wav");
   } else if (value == 1) {
-    CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("melody_d.wav");
+    CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("melody_D4.wav");
   } else if (value == 2) {
-    CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("melody_e.wav");
+    CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("melody_E4.wav");
   } else if (value == 3) {
-    CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("melody_g.wav");
+    CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("melody_G4.wav");
   } else if (value == 4) {
-    CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("melody_a.wav");
+    CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("melody_A4.wav");
   } else {
     // a rest
   }
@@ -88,15 +88,15 @@ void SimpleSound::playSound() {
   if (marker_ % 2 == 0) {
     value = rand() % 5;
     if (value == 0) {
-      CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("base_c.wav");
+      CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("base_C3.wav");
     } else if (value == 1) {
-      CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("base_d.wav");
+      CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("base_D3.wav");
     } else if (value == 2) {
-      CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("base_e.wav");
+      CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("base_E3.wav");
     } else if (value == 3) {
-      CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("base_g.wav");
+      CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("base_G3.wav");
     } else if (value == 4) {
-      CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("base_a.wav");
+      CocosDenshion::SimpleAudioEngine::sharedEngine()->playEffect("base_A3.wav");
     }
   }
   
